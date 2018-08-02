@@ -17,6 +17,8 @@ edit file smtpd.conf yang ada di dalam folder etc, sesuaikan dengan kebutuhan se
 
 Setting pada postfix main.cf
 =========================================================
+edit file /etc/main.cf, ubah setting relayhost menjadi
+
       relayhost = 127.0.0.1:25000
 
 
