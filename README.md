@@ -2,18 +2,23 @@
 
 Instalasi 
 
-  go get -v github.com/rgunawans/smtpd
+      go get -v github.com/rgunawans/smtpd
 
 Build server"
 
-  go build main.go
+      go build main.go
 
 Running server
 
-  ./main
+     ./main
   
   
 edit file smtpd.conf yang ada di dalam folder etc, sesuaikan dengan kebutuhan server
+
+Setting pada postfix main.cf
+=========================================================
+      relayhost = 127.0.0.1:25000
+
 
 Enhancement
 =========================================================
