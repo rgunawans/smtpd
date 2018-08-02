@@ -15,7 +15,7 @@ Running server
   
 edit file smtpd.conf yang ada di dalam folder etc, sesuaikan dengan kebutuhan server
 
-Enhancedment
+Enhancement
 =========================================================
 * Menambahkan ip server yang mengirimkan command yang salah ke dalam list spam
 * Menambahkan command HELP untuk memberikan informasi cara mengirim email secara manual (untuk testing smtpd server)
